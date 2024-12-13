@@ -21,7 +21,7 @@ This property can be used to:
 - uniquely identify clusters using a clusterID
 
     ```
-    apiVersion: about.k8s.io/v1alpha1
+    apiVersion: about.k8s.io/v1beta1
     kind: ClusterProperty
     metadata:
         name: cluster.clusterset.k8s.io
@@ -32,7 +32,7 @@ This property can be used to:
 - uniquely identify the membership of a cluster in a ClusterSet for the lifetime of the membership.
 
     ```
-    apiVersion: about.k8s.io/v1alpha1
+    apiVersion: about.k8s.io/v1beta1
     kind: ClusterProperty
     metadata:
         name: clusterset.k8s.io
@@ -45,7 +45,7 @@ This property can be used to:
 - Provide extra metadata space to store other cluster properties that might otherwise be implemented as ad-hoc annotations on semantically adjacent objects.
 
     ```
-    apiVersion: about.k8s.io/v1alpha1
+    apiVersion: about.k8s.io/v1beta1
     kind: ClusterProperty
     metadata:
         name: fingerprint.mycoolimplementation.com

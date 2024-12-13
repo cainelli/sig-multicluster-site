@@ -82,7 +82,7 @@
 	"ClusterSet (About API)": {
 		"prefix": ["ClusterSet"],
 		"body": [
-			"apiVersion: about.k8s.io/v1alpha1",
+			"apiVersion: about.k8s.io/v1beta1",
 			"kind: ClusterProperty",
 			"metadata:",
 				"\tname: clusterset.k8s.io",
@@ -94,7 +94,7 @@
 	"Cluster (About API)": {
 		"prefix": ["Cluster"],
 		"body": [
-			"apiVersion: about.k8s.io/v1alpha1",
+			"apiVersion: about.k8s.io/v1beta1",
 			"kind: ClusterProperty",
 			"metadata:",
 				"\tname: cluster.clusterset.k8s.io",
